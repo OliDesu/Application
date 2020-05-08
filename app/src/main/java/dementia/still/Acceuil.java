@@ -32,11 +32,14 @@ public class Acceuil extends AppCompatActivity {
             public void run() {
                 button.setVisibility(View.VISIBLE);
             }
-        }, 9000);
+        }, 8000);
     }
 
     public void startExample2(View v) {
 
+        Intent welcome = new Intent(Acceuil.this,Choice.class);
+        startActivity(welcome);
+        overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
         setContentView(R.layout.activity_choice);
     }
 }

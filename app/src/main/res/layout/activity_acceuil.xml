@@ -12,8 +12,9 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_centerInParent="true"
-       android:textSize="30sp"
+       android:textSize="50sp"
        app:texts="@array/example_one"
+       android:fontFamily="@font/asenine"
        app:timeout="6000" />
 
    <Button
